@@ -1,0 +1,186 @@
+.navbarr{
+    position: fixed;
+}
+.nav-link{
+  font-weight: bold;
+  margin-right: 25px;
+}
+.navLogo{
+    width: 80%;
+}
+/*******Home******/
+/* html, body{
+    font-family: neue;
+} */
+.HomeImg{
+    width: 90%;
+} 
+.SecOne h1{
+    font-size: 100px;
+    margin-bottom: 1rem;
+}
+.SecOne p{
+    color: rgb(88, 88, 88);
+}
+button{
+    padding:10px 40px;
+    background-color: black;
+    color: white;
+    outline: white;
+    border-radius: 5px;
+    border: 1px solid  black;
+}
+.SecImg{
+    width: 80%;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+.Nums{
+    font-size: 50px;
+    color: rgb(88, 88, 88);
+}
+.defNum{
+    color: rgb(88, 88, 88);
+}
+.box{
+    width: 140px;
+    height: 130px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 5px;
+}
+
+/****Service*****/
+.HeadText{
+    display: flex;
+    margin:8rem 0 4rem 0;
+}
+.HeadText h2{
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+    width: 7%;
+    height: 3px;
+    background-color: black;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ServIcon{
+    width: 180%;
+}
+
+
+
+/****/
+.dreamImg{
+    width: 95%;
+}
+h2{
+    font-size: 45px;
+    padding-bottom: 2rem;
+}
+.dreamContant p{
+    padding-bottom: 2rem;
+    color: rgb(88, 88, 88);
+
+}
+.lineContant{
+    padding-top: 1rem;
+    display: flex;
+}
+/**/
+.lineContant i{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+/***How to Design****/
+
+.leftIcon{
+    border-radius: 50px;
+    width: 80%;
+    height: 80%;
+}
+.leftIcon img{
+    filter: invert(1);
+    margin: 2rem 0;
+    margin: auto;
+  
+}
+.howtoContant img{
+    width: 40%;
+    filter: grayscale(100%);
+    
+}
+
+/******Customers******/
+.Customers img{
+    width: 110%;
+    
+}
+.cusImg{
+    position: relative;
+}
+.blackBox{
+    padding: 40px 50px;
+    width: 28rem;
+    height: 26rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    left: -25rem;
+}
+.blackBox2{
+    padding: 40px 50px;
+    width: 28rem;
+    height: 26rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5rem;
+}
+.quotesBox{
+    width: 10%;
+    filter: invert(1);
+}
+
+/*****/
+.Subscribe{
+    width: 53%;
+    margin: auto;
+    text-align: center;
+}
+.Subscribe p{
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+}
+.FooterLogo{
+    filter: invert(1);
+}
+.FooterLogo i{
+    width: 10%;
+    height: 10%;
+    background-color: rgb(235, 232, 232);
+}
+.our-Services p{
+margin: 10px 0;
+}
+.our-Services h5{
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
