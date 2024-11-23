@@ -165,10 +165,6 @@ h2{
     font-size: 20px;
     color: rgb(82, 82, 82);
 }
-footer{
-    background-color: #1f1f1f;
-    color: white;
-}
 .FooterLogo{
     filter: invert(1);
 }
@@ -184,3 +180,44 @@ margin: 10px 0;
     margin: 10px 0;
     padding-bottom: 20px;
 }
+footer {
+    position: relative; 
+    background-color: #1f1f1f;
+    color: white;
+  }
+  
+  .subscribe-section {
+    position: absolute;
+    top: -20px; /* Pushes the section half outside the footer */
+    left: 50%; /* Centers the section horizontally */
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    position: relative;
+    width: 35rem;
+    height: 55px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .subscribe-button {
+    position: absolute;
+    top: 5;
+    left: 71%; 
+    width: 10rem;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+
+  
